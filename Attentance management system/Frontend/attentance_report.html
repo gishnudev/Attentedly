@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attendance History - Attendance Management System</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 p-8">
+    <div class="flex justify-between items-center mb-8">
+        <h1 class="text-3xl font-bold">Attendance History</h1>
+        <div class="flex items-center">
+            <input type="date" class="p-3 border border-gray-300 rounded-lg mr-4 focus:ring-2 focus:ring-blue-500">
+            <select class="p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500">
+                <option>All Employees</option>
+                <option>John Doe</option>
+                <option>Jane Smith</option>
+                <option>Alice Johnson</option>
+            </select>
+        </div>
+    </div>
+    <div class="bg-white shadow-md rounded-lg p-4">
+        <table class="min-w-full text-left">
+            <thead>
+                <tr class="border-b bg-gray-50">
+                    <th class="p-4">Employee Name</th>
+                    <th class="p-4">Date</th>
+                    <th class="p-4">Status</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="border-b">
+                    <td class="p-4">John Doe</td>
+                    <td class="p-4">Oct 10, 2024</td>
+                    <td class="p-4 text-green-600">Present</td>
+                </tr>
+                <tr class="border-b">
+                    <td class="p-4">Jane Smith</td>
+                    <td class="p-4">Oct 10, 2024</td>
+                    <td class="p-4 text-red-600">Absent</td>
+                </tr>
+                <tr class="border-b">
+                    <td class="p-4">Alice Johnson</td>
+                    <td class="p-4">Oct 10, 2024</td>
+                    <td class="p-4 text-yellow-500">Leave</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

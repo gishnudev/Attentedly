@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 h-screen">
+    <div class="flex">
+        <div class=" bg-blue-800 w-1/5 h-screen p-4 font-bold text-white">
+            <h1 class="text-2xl text-center pb-8">Dashboard</h1>
+            <ul>
+                <li class="p-3 bg-blue-500 rounded-lg mb-4 flex"><img class="w-8 mr-6 " src="/Attentance management system/symbols/home.png" alt=""><a class="p-1" href="home.html">Dashboard</a></li>
+                <li class="p-3 hover:bg-blue-500 rounded-lg mb-4 flex"><img class="w-8 mr-6" src="/Attentance management system/symbols/user-check.png" alt=""><a class="p-1" href="attentance_report.html">Employees</a></li>
+                <li class="p-3 hover:bg-blue-500 rounded-lg mb-4 flex"><img class="w-8 mr-6" src="/Attentance management system/symbols/profit-report.png" alt=""><a class="p-1" href="reports.html">Department</a></li>
+                <li class="p-3 hover:bg-blue-500 rounded-lg mb-4 flex"><img class="w-8 mr-6" src="/Attentance management system/symbols/settings.png" alt=""><a class="p-1" href="login.html">Leaves</a></li>
+                <li class="p-3 hover:bg-blue-500 rounded-lg mb-4 flex"><img class="w-8 mr-6" src="/Attentance management system/symbols/settings.png" alt=""><a class="p-1" href="login.html">Salary</a></li>
+                <li class="p-3 hover:bg-blue-500 rounded-lg mb-4 flex"><img class="w-8 mr-6" src="/Frontend/symbols/settings.png" alt=""><a class="p-1" href="login.html">Settings</a></li>
+            </ul>
+        </div>
+        <div class="w-full">
+            <div class="flex justify-between items-center m-12">
+                <input class="p-4 rounded-lg w-[600px] focus:outline-blue-500 shadow-lg" type="text" placeholder="Search...">
+                <div class="flex items-center"><a href="user_profile.html"><img src="/Attentance management system/symbols/user.png" alt="" class="w-16 h-16 bg-gray-300 p-4 rounded-full  shadow-md shadow-blue-300"></a><h2 class="ml-4">User Name</h2></div>
+            </div>
+            <div class="grid grid-cols-3 gap-6">
+                <div class="bg-white h-24 ml-12 pl-8 pt-3 rounded-lg relative shadow-xl">
+                    <h2 class="text-4xl text-blue-600 font-bold">85%</h2>
+                    <p class="text-xl text-gray-500">Present</p>
+                    <img class="w-16 ml-12 absolute absolute left-1/2 transform -translate-x-1/2 transform -translate-x-1/2 bottom-3" src="/Attentance management system/symbols/check.png" alt="">
+                </div>
+                <div class="bg-white h-24 ml-12 pl-8 pt-3 rounded-lg relative shadow-lg">
+                    <h2 class="text-4xl text-blue-600 font-bold">15%</h2>
+                    <p class="text-xl text-gray-500">Absent</p>
+                    <img class="w-16 ml-12 absolute absolute left-1/2 transform -translate-x-1/2 transform -translate-x-1/2 bottom-3" src="/Attentance management system/symbols/absent.png" alt="">
+                </div>
+                <div class="bg-white h-24 ml-12 pl-8 pt-3 rounded-lg relative shadow-lg mr-6">
+                    <h2 class="text-4xl text-blue-600 font-bold">100</h2>
+                    <p class="text-xl text-gray-500">Total</p>
+                    <img class="w-16 ml-12 absolute absolute left-1/2 transform -translate-x-1/2 transform -translate-x-1/2 bottom-3" src="/Attentance management system/symbols/division.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
